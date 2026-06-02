@@ -1,0 +1,33 @@
+{
+  "name": "AR24 TESTE",
+  "short_name": "AR24 TESTE",
+  "description": "Plataforma de gestão do Condomínio Av. Amália Rodrigues, 24",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#1E54C7",
+  "background_color": "#1E54C7",
+  "lang": "pt-PT",
+  "categories": ["business", "finance", "productivity"],
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1E54C7">
+<title>Gestão do Condomínio AR24</title>
+
+<!-- PWA · manifest e ícones -->
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+
+<!-- iOS · standalone -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="AR24">
+
+<!-- Substituto moderno do mobile-web-app-capable (Chrome desktop) -->
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="Gestão do Condomínio AR24">
+
+<!-- Tipografia -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Allura&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+<div id="icon-sprite-mount" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"></div>
+
+<div id="app-root">
+  <div class="loading-screen">
+    <div class="loading-spinner"></div>
+    <p>A carregar Gestão do Condomínio AR24…</p>
+  </div>
+</div>
+
+<script src="vendor/exceljs.min.js"></script>
+<script src="vendor/jspdf.umd.min.js"></script>
+<!-- Firebase é inicializado via import em local-store.js (firebaseReady promise) -->
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
